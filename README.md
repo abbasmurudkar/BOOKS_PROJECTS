@@ -10,5 +10,11 @@
 This is a simple clone of webpage tourist.com using HTML, CSS and javascript. Check out the page at
 https://github.com/abbasmurudkar/BOOKS_PROJECT
 <h2>page_facing_up: How to use:</h2>
+<ol>
+  <li>Download the ZIP file</li>
+  <li>Extraxt from any ZIP Extracter</li>
+  <li>Open `index.html` in any Browser</li>
+  </ol>
+  ## :came
 
 
