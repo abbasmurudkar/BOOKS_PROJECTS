@@ -1,0 +1,851 @@
+
+/* ----------------------------------------------- */
+                /* NAV BAR CSS */
+ /*----------------------------------------------- */
+.nav{
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-top: 40px;
+    /* position: fixed; */
+    background: transparent;
+    background-color: white;
+    border: transparent;
+    z-index: 9;
+    opacity: 1;
+}
+/* ----------------------------------------------- */
+                /* NAV BAR CONTENT CSS */
+ /*----------------------------------------------- */
+.nav-content{
+    /* border: 2px solid greenyellow; */
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+/* ----------------------------------------------- */
+                /* NAV BAR LOGO CSS */
+ /*----------------------------------------------- */
+.logo{
+    position: relative;
+    display: inline-block;
+    /* border: 2px solid brown; */
+    left: 50px;
+}
+/* ----------------------------------------------- */
+                /* HOME MENU CSS */
+ /*----------------------------------------------- */
+.main-menu
+{
+    /* border: 2px solid black; */
+    width: 700px;
+    display: inline-block;
+    position: relative;
+    left: 32px;
+}
+.tab{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tab li #menu{
+    font-size: 15px;
+    color: #666666;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s all ease-in-out;
+    padding: 70px 15px;
+}
+.tab li{
+    list-style: none;
+}
+.tab li #menu:hover{
+    color: red;
+}
+/* ----------------------------------------------- */
+                /* SEARCH MENU CSS */
+ /*----------------------------------------------- */
+.menu{
+    /* border: 2px solid red; */
+    width: 200px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    right: 20px;
+}
+#icons{
+    color: #666666;
+    font-size: 19px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 2px 12px;
+    transition: 0.3s all ease-in-out;
+}
+#icons:hover{
+    color: red;
+}
+
+/* ----------------------------------------------- */
+                /* SUBMENU BOX1 CSS */
+ /*----------------------------------------------- */
+.dropdown-inner,.item{
+    /* border: 2px solid green; */
+    width: 40%;
+    padding: 15px 2px;
+}
+#hr,#hr1{
+    position: relative;
+    top: -12px;
+    right: 50px;
+    width: 90px;
+    border: 1px solid gray;
+}
+#hr1{
+    right: 66px;
+    width: 115px;
+}
+/* ----------------------------------------------- */
+                /* SUBMENU BOX2 CSS */
+ /*----------------------------------------------- */
+.item{
+    padding: 15px 0px;
+    width: 50%;
+}
+.head{
+    font-size: 18px;
+    position: relative;
+    left: 15px;
+    transition: 0.3s all ease-in-out;
+    font-weight: 400;
+
+}
+.dropdown-inner .list li,.item .list li{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 3;
+    transition: 0.3s all ease-in-out;
+}
+.list {
+    width: 90%;
+    /* border: 2px solid; */
+    padding: 0px 12px;
+    top: -24px;
+    position: relative;
+    height: 320px;
+}
+.list li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+.dropdown-inner:hover .head,.item:hover .head{
+    color: red;
+}
+.list li a:hover{
+    color: red;
+}
+
+/* ----------------------------------------------- */
+                /* SUBMENU BOX3 CSS */
+ /*----------------------------------------------- */
+.item1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item1 img{
+    width: 150px;
+    height: 314px;
+    position: relative;
+    top: -10px;
+    right: 60px;
+}
+/* ----------------------------------------------- */
+                /* SECOND SUBMENU CSS */
+ /*----------------------------------------------- */
+.dropdown #drop{
+    width: 180px;
+    position: absolute;
+    top: 90px;
+    left: -5px;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.dropdownouter-content .list1 li{
+    font-size: 12px;
+    border-bottom: 1px solid rgb(189, 188, 188);
+    display: block;
+    width: 180px;
+    line-height: 3;
+    font-weight: 500;
+    padding: 0px 15px;
+    transition: 0.3s all ease-in-out 0s;
+    cursor: pointer;
+}
+.dropdownouter-content .list1 li:hover{
+    background-color: rgb(240, 240, 240);
+    color: red;
+}
+/* ----------------------------------------------- */
+                /* SIDEMENU CSS */
+ /*----------------------------------------------- */
+.category-menu{
+    border: 2px solid rgb(238, 238, 238);
+    position:absolute;
+    top: -1400px;       /*150px */
+    left: -295px;
+    width: 265px;
+    height: 195rem;
+}
+.categories {
+        display: block;
+        width: 265px;
+        cursor: pointer;
+} 
+/* ----------------------------------------------- */
+                /* SIDEMENU BOXES CSS */
+ /*----------------------------------------------- */
+.categories .list1 li{
+    border-bottom: 2px solid rgb(238, 238, 238);
+    list-style: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    transition: all .3s ease 0s;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header{
+   
+    letter-spacing: 1px;
+    background-color: #303030;
+    color: white;
+    line-height: 3;
+}
+.header li{
+    transition: 0.3s all ease-in-out;
+    list-style: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+}
+.header li:hover{
+    color: rgb(236, 81, 81);
+}
+#hr2{
+border-bottom: 3px solid rgb(185, 185, 185);
+}
+#hr3{
+    border-bottom: 2px solid red
+}
+#font{
+    font-size: 17px;
+}
+#bold, #bolder{
+    font-weight: bolder;
+}
+#bold{
+    border-bottom: none;
+}
+.list1 li img{
+   width: 18px;
+}
+#img{
+    top: -9px;
+    position: relative;
+    width: 18px;
+}
+.list1 #inner:hover {
+    background-color: rgb(240, 240, 240);
+    color: red;
+}
+.red:hover{
+    background-color: rgb(240, 240, 240);
+    color: red;  
+}
+#comp{
+    color: black;
+} 
+
+/* -------------------- */
+        /* POSTERS */
+/* -------------------- */
+.poster{
+    /* border: 2px solid red; */
+    width: 165%;
+    position: relative;
+    top: 20rem;
+    right: 350px;
+}
+.poster-inner{
+display: flex;
+width: 100%;
+position: relative;
+height: 600px;
+justify-content: center;
+/* border: 2px solid green; */
+}
+.poster-inner img{
+    width: 90%;
+    height: 500px;
+z-index: 10
+}
+/* ------------------------- */
+        /* SPONSERS */
+/* ------------------------- */
+
+.sponsers{
+    position: relative;
+    width: 174%;
+    top: 10rem;
+    height: 400px;
+    background-color: rgb(248, 248, 248);
+    right: 435px;
+}
+.sponsers-inner{
+    position: relative;
+    display: flex;
+    height: 85%;
+}
+/* ------------------------- */
+        /* SPONSERS BOX*/
+/* ------------------------- */
+#boxes{
+    /* border: 2px solid yellow; */
+    width: 15%;
+    position: relative;
+    left: 200px;
+    height: 285px;
+}
+.outer-box{
+    position: relative;
+    left: 90px;
+    width: 15%;
+    height: 285px;
+}
+.outer-box li{
+    line-height: 3;
+    list-style: none;
+    padding: 2px 2px;
+    text-align: center;
+    position: relative;
+    top: 60px;
+    color: gray;
+    font-size: 14px;
+    transition: 0.3s all ease-in-out;
+}
+.outer-box img{
+    position: relative;
+    top: 45px;
+    margin: auto;
+    display: block;
+}
+/* ------------------------- */
+        /* LOGOS */
+/* ------------------------- */
+.logos1{
+    position: relative;
+    top: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.fab{
+    width: 40px;
+    display: inline-flex;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: 200;
+    position: relative;
+    border: 50%;
+    border-radius: 50%;
+    border: 1px solid;
+    color: #c7c6c6;
+    height: 30px;
+    padding: 5px 10px;
+    transition: 0.5s all ease-in-out;
+}
+.fas{
+    position: relative;
+    font-size: 18px;
+}
+.fab:hover{
+    color: white;
+    background-color: red;
+}
+/* ------------------------- */
+        /* SECOND BOX */
+/* ------------------------- */
+.outer-box2 li{
+    list-style: none;
+    padding: 7px 2px;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    font-weight: 500;
+    color: gray;
+    transition: 0.3s all ease-in-out;
+}
+.outer-box2{
+    position: relative;
+    left: 350px;
+    width: 16%;
+height: 285px;
+}
+.outer-box2 li b{
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+}
+.outer-box .outer-box2 li a{
+    color: gray;
+}
+.outer-box1 li:hover{
+color: red;
+}
+.outer-box li:nth-child(3):hover{
+    color: red;
+    cursor: pointer;
+}
+#h3{
+    position: absolute;
+    top: 310px;
+    left: 90px;
+    width: 85%;
+    border: 1px solid #e6e5e5;
+
+}
+.copywrite{
+    height: 35px;
+    position: top;
+    position: absolute;
+    top: 105%;
+    width: 30%;
+}
+.copywrite #para{
+    left: 100px;
+    position: relative;
+    color: gray;
+}
+.copywrite span:hover{
+color: red;
+cursor: pointer;
+}
+.banner{
+    display: flex;
+    height: 30px;
+    position: relative;
+    top: 105%;
+    width: 300px;
+    justify-content: center;
+    left: 170px;
+}
+.banner li {
+list-style: none;
+}
+.banner li a{
+    padding: 2px 25px;
+    color: gray;
+}
+.banner li a:hover{
+    background-color: rgb(248, 248, 248);
+}
+.btn1{
+    height: 40px;
+    position: relative;
+    top: 320px;
+    left: 180px;
+}
+.btn1 button{
+    border: 4px solid rgb(197, 197, 197);
+    border-radius: 50%;
+    height: 55px;
+    width: 60px;
+    background-color: rgb(221, 221, 221);
+
+}
+.btn1 .fas{
+font-size: 25px;
+animation-name:popup;
+animation-iteration-count: infinite;
+animation-duration: 0.6s;
+animation-timing-function: ease-in-out;
+color: white;
+}
+.btn1 button:focus{
+outline: none;
+}
+/* -------------------------- */
+/* carousel */
+/* -------------------------- */
+
+.carousel-container{
+    position: relative;
+    top: 60px;
+    left: 450px;
+    display: block;
+    width: 900px;
+    height: 550px;
+    /* border: 2px solid green; */
+}
+.carousel-container .carousel-inner {
+    overflow: hidden;
+    height: 550px;
+    /* border: 2px solid red; */
+  }
+.carousel-container .track {
+    display: inline-flex;
+    transition: transform 0.5s;
+    height: 550px;
+    /* border: 2px solid yellow; */
+  }
+  .carousel-container .card-container {
+    width: 900px;
+    flex-shrink: 0;
+    height: 250px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    height: 550px;
+    /* border: 2px solid purple; */
+
+  }
+  .carousel-container .card-container .card {
+    width: 101%;
+    height: 100%;
+    /* border: 1px solid #ccc; */
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+  .card img{
+    width: 330px;
+  }
+#tag{
+    font-size: 60px;
+    letter-spacing: 1.4px;
+    animation-name:popup2;
+    animation-iteration-count: 1;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    opacity: 0;
+ }
+ #tag1{
+    
+    font-size: 60px;
+    color: red;
+    animation-name:popup2;
+    animation-iteration-count: 1;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s; 
+     opacity: 0; 
+ }
+ #tag3{
+    font-size: 15px;
+    animation-name:popup2;
+    animation-iteration-count: 1;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3s; 
+    opacity: 0; 
+ }
+ #tag3:hover{
+     color: red;
+     cursor: pointer;
+ }
+ .head2{
+    position: absolute;
+    left: 480px;
+    font-size: 60px;
+    top: 28%;
+ }
+ .head3{
+    position: absolute;
+    left: 535px;
+    font-size: 60px;
+ }
+.head4{
+    position: absolute;  
+    top: 304px;
+    left: 690px;
+}
+
+.inner-btn button {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    border: none;
+  }
+  .inner-btn .prev {
+    display: block;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+    left: 400px;
+    visibility: hidden;
+  }
+  .inner-btn .prev.show {
+    display: block;
+  }
+  .inner-btn .next {
+      right: 400px;
+      background: transparent;
+      visibility: hidden;
+  }
+  .inner-btn .next.hide {
+    display: none;
+  }
+  .material-icons .fas{
+      font-size: 60px;
+      color: gray;
+  }
+  .next,.prev:focus{
+      outline: none;
+  }
+.carousel-container .carousel-inner:hover .fa-chevron-left{
+    transform: translateX(50%);
+    animation-name: left;
+    animation-iteration-count: 1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    visibility: visible;
+}
+.carousel-container .carousel-inner:hover .fa-chevron-right{
+    transform: translateX(50%);
+    animation-name: right;
+    animation-iteration-count: 1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    visibility: visible;
+}
+#img-inner1{
+    position: absolute;
+    left: 560px;
+}
+.inner-text{
+    position: relative;
+    right: 450px;
+    width: 390px;
+}
+.txt{
+    right: 475px;
+}
+.txt1{
+    right: 600px;
+}
+.carousel{
+    left: 450px;
+    /* border: 2px solid red; */
+    top: 90px;
+    width: 950px;
+}
+.carousel .carousel-inner4,
+.carousel .carousel__item--hidden{
+    display: none;
+    transition: transform 3s;
+    animation-name:slider;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+.carousel .carousel-inner4 .carousel__item img{
+    max-width: 250px;
+}
+.carousel .carousel__item--visible{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    animation-name:slider;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+.carousel .carousel__actions button{
+border-radius: 50px;
+border: 0;
+font-weight: bold;
+}
+#carousel__button--prev{
+    position: absolute;
+    left: 890px;
+    top: 18px;
+    background: transparent;
+    border: none;
+}
+
+#carousel__button--next{
+    position: absolute;
+    left: 850px;
+    top: 18px;
+    background: transparent;
+    border: none;
+}
+#icons-inner{
+    font-size: 18px;  
+}
+#carousel__button--prev, #carousel__button--next:focus {
+    outline: none;
+}
+#carousel__button--prev :hover{
+ color: red;   
+}
+#carousel__button--next:hover{
+    color: red;
+}
+
+.box,.box1{
+    left: 450px;
+    position: relative;
+    top: 55px;
+    border: 2px solid red;
+    width: 950px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    box-shadow: 0px 1px 4px grey;
+    padding: 5px 20px;
+}
+.box h3,.box1 h3{
+    color:red;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+}
+.carousel__item #img1{
+    position: relative;
+    top:-20px;
+}
+.carousel__item #img2{
+    position: relative;
+}
+.carousel__item h2:hover{
+    color: red;
+}
+.carousel__item1 h2:hover{
+    color: red;
+}
+.carousel__item img{
+    cursor: pointer;
+}
+.hidecomp{
+    display: none;
+    position: absolute;
+    left: 85px;
+    top: 140px;
+    width: 140px;
+    height: 40px;
+    background: #eae5e5;
+    height: 35px;
+    justify-content: space-around;
+    align-items: center;
+    animation: popup;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+.carousel__item .fal,.carousel__item1 .fal{
+    font-size: 20px;
+    cursor: pointer;
+}
+.carousel__item .far,.carousel__item1 .far{
+    font-size: 20px;
+    cursor: pointer;
+}
+.carousel__item .fal:hover{
+color: red;
+}
+.carousel__item1 .fal:hover{
+    color: red;
+    }
+.carousel__item .far :hover{
+    color: red;
+}
+.carousel__item1 .far :hover{
+    color: red;
+}
+.carousel__item:hover .hidecomp{
+    display: flex;
+}
+.carousel__item1:hover .hidecomp{
+    display: flex;
+}
+.box1{
+    top: 1445px;
+    position: absolute;
+}
+.carousel-inner5{
+    width: 950px;
+}
+.carousel1{
+    position: absolute;
+    top: 1550px;
+    left: 440px;
+    width: 820px;
+}
+.carousel1 .carousel-inner5,
+.carousel1 .carousel__item1--hidden{
+    display: none;
+    transition: transform 3s;
+    animation-name:slider;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+.carousel1 .carousel-inner5 .carousel__item1 img{
+    max-width: 250px;
+}
+.carousel1 .carousel__item1--visible{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    animation-name:slider;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+.carousel .carousel__actions2 button{
+    border-radius: 50px;
+    border: 0;
+    font-weight: bold;
+    }
+    #carousel__button--prv{
+        position: absolute;
+        left: 890px;
+        top: 18px;
+        background: transparent;
+        border: none;
+    }
+    
+    #carousel__button--nxt{
+        position: absolute;
+        left: 850px;
+        top: 18px;
+        background: transparent;
+        border: none;
+    }
+    #icons-inner{
+        font-size: 18px;  
+    }
+    #carousel__button--prv, #carousel__button--nxt:focus {
+        outline: none;
+    }
+    #carousel__button--prv :hover{
+     color: red;   
+    }
+    #carousel__button--nxt:hover{
+        color: red;
+    }
