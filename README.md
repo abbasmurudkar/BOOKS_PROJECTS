@@ -7,4 +7,6 @@
 <a href="https://www.tourmyindia.com/">www.tourmyindia.com</a><br>
 </p>
 <h2>BOOKS-Clone Project:</h2>
+This is a simple clone of webpage tourist.com using HTML, CSS and javascript. Check out the page at
+https://github.com/abbasmurudkar/BOOKS_PROJECT
 
