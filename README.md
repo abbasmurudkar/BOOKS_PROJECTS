@@ -22,4 +22,8 @@ https://github.com/abbasmurudkar/BOOKS_PROJECT
     ## :octocat: Credits:
 
 - ABBAS MURUDKAR (https://www.linkedin.com/in/abbas-murudkar-0084391ba/)
+- ## :memo: Disclaimer:-
+
+**_Note: This Books clone project is just for educational purpose._**
+
 
