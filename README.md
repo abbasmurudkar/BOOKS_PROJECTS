@@ -19,4 +19,7 @@ https://github.com/abbasmurudkar/BOOKS_PROJECT
 <a href="https://www.github.com/abbasmurudkar">
   <img src="images/TOURIST.png">
   </a>
+    ## :octocat: Credits:
+
+- ABBAS MURUDKAR (https://www.linkedin.com/in/abbas-murudkar-0084391ba/)
 
