@@ -17,7 +17,7 @@ https://github.com/abbasmurudkar/BOOKS_PROJECT
   </ol>
   ## :camera: Screenshot:
 <a href="https://www.github.com/abbasmurudkar">
-  <img src="images/TOURIST.png">
+  <img src="images/BOOKSS.png">
   </a>
     ## :octocat: Credits:
 
